@@ -68,7 +68,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎥 MORE MOVIES 🎥', url=f"{https://t.me/worldmoviesaj}"
+                                    '🎥 MORE MOVIES 🎥', url=f"https://t.me/worldmoviesaj"
                                 )
                         ]
                     ]
