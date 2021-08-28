@@ -165,7 +165,7 @@ async def about(bot, update):
     
     buttons = [[
         InlineKeyboardButton('👤 AJ👤', url='https://t.me/avataradorn'),
-        InlineKeyboardButton('KING👤', url='https://t.me/worldmoviesaj')
+        InlineKeyboardButton('DONT TOUCH💥👤', url='https://t.me/worldmoviesaj')
     ],[
         InlineKeyboardButton('👤 ALL MOVIES👤', url='https://t.me/worldmoviesaj')
     ],[
