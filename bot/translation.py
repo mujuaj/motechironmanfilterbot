@@ -46,7 +46,7 @@ class Translation(object):
             
             -> <code>Status</code> - <b>Button Will Shows The Stats Of Your Channel</b>
             
-<b><a href="https://t.me/avataradorn">© AJ </a></b>
+<b><a href="https://t.me/avataradorn"> {© AJ} </a></b>
 """
     
     ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro AJ Auto Filter Bot</b>
