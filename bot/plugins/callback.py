@@ -1601,14 +1601,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Mo_Tech_YT">Mo Tech YT</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/Mo_Tech_YT/Pro-Filter-Bot-V2">Source</a>"""
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/AJmovieLINKS">Mo Tech YT</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://t.me/worldmoviesaj">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/Mo_Tech_Group"
+                    "My Dev ⚡", url="https://t.me/avataradorn"
                 ),
                 
             InlineKeyboardButton
@@ -1640,14 +1640,14 @@ async def callback_data(bot, update: CallbackQuery):
     if query_data == "start":
         buttons = [[
             InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/MRK_YT'),
-            InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎🧾', url ='https://github.com/MoTectYT/Pro-Auto-Filter-Bot-V2')
+            InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎🧾', url ='https://t.me/AJmovieLINKS')
         ],[
             InlineKeyboardButton('⚙️𝙷𝚎𝚕𝚙⚙️', callback_data="help")
         ],[
-            InlineKeyboardButton('🗣️𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/Mo_Tech_group'),
-            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜🤖', url='https://t.me/Mo_Tech_YT')
+            InlineKeyboardButton('🗣️𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/worldmoviesaj'),
+            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜🤖', url='https://t.me/AJmovieLINKS')
         ],[
-            InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtu.be/OTqZmADyOjU')
+            InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://t.me/worldmoviesaj')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1680,10 +1680,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤Mrk YT', url='https://t.me/MRK_YT'),
-            InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
+            InlineKeyboardButton('👤AJ', url='https://t.me/avataradorn'),
+            InlineKeyboardButton('KING👤', url='https://t.me/worldmoviesaj')
         ],[
-            InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
+            InlineKeyboardButton('👤 MORE MOVIES 👤', url='https://t.me/worldmoviesaj')
         ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
