@@ -54,7 +54,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption =  f''' <b>Join <a href= '''https://t.me/worldmoviesaj '''>MOVIE HUB HD⬛️◼️◾️▪️</a>\n <code>{file_name}</code>\n<a href= '''https://t.me/AJmovieLINKS'''>𝘼𝙇𝙇 𝙈𝙊𝙑𝙄𝙀𝙎 𝘼𝙉𝘿 𝙎𝙀𝙍𝙄𝙀𝙎 𝙃𝘿</a>\n© Powered by <a href= '''https://t.me/AJmovieLINKS'''>𝚈𝙾𝚄 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝚆𝙴 𝙿𝚁𝙾𝚅𝙸𝙳𝙴</a></b>  ''',
+                caption =  f''' <b>Join <a href=  "https://t.me/worldmoviesaj">MOVIE HUB HD⬛️◼️◾️▪️</a>\n <code>{file_name}</code>\n<a href= "https://t.me/AJmovieLINKS'''>𝘼𝙇𝙇 𝙈𝙊𝙑𝙄𝙀𝙎 𝘼𝙉𝘿 𝙎𝙀𝙍𝙄𝙀𝙎 𝙃𝘿</a>\n© Powered by <a href= "https://t.me/AJmovieLINKS">𝚈𝙾𝚄 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝚆𝙴 𝙿𝚁𝙾𝚅𝙸𝙳𝙴</a></b>  ''',
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
