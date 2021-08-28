@@ -62,7 +62,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url=f"{https://t.me/AJmovieLINKS}"
+                                    '🔔Join Main Channel🔔', url="https://t.me/AJmovieLINKS"
                                 )
                         ],
                         [
